@@ -1,0 +1,17 @@
+---
+title: "Demo"
+author: "YcJ"
+date: "2020/2/12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Calculation below
+
+```{r, echo=FALSE}
+print("7! = ", quote = F)
+7*6*5*4*3*2*1
+```
